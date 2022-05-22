@@ -1,0 +1,14 @@
+{
+  "name": "uptime",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/benchmark.js"
+  },
+  "devDependencies": {
+    "autocannon": "^7.9.0"
+  }
+}
